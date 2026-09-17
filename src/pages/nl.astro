@@ -1,0 +1,196 @@
+---
+---
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="generator" content={Astro.generator} />
+        <title>Over mij</title>
+    </head>
+
+    <body>
+        <div class="language">
+		<p>verander taal van webpagina</p>
+        <button disabled id="dutch" onclick="window.location.href='/nl'">Nederlands</button>
+        <button id="english" onclick="window.location.href='/'">English</button>
+        </div>
+
+        <h1>Laurens Hill</h1>
+
+        <p>Ik ben een junior softwareontwikkelaar met kennis van Python en ervaring met HTML en CSS.
+        Ik heb ervaring met de frameworks Vue en React.
+        Ik kan vrij snel nieuwe vaardigheden leren door ze in de praktijk te gebruiken.
+        </p>
+
+        <h1>Waar ik in geïnteresseerd ben</h1>
+
+        <p>Ik ben geïnteresseerd in programmeren, vooral in back-endontwikkeling, gameontwikkeling en debuggen.
+        Ik vind het leuk om problemen op te lossen en uit te zoeken hoe dingen werken.
+        Mijn passie is om nieuwe softwareapplicaties te maken en hierbij te helpen.
+        Ik wil ook meer leren over het testen van software, zoals het gebruiken van Gherkin om testscenario's te maken en te automatiseren.
+        Als je geïnteresseerd bent, bekijk dan mijn LinkedIn voor meer informatie door op de knop hieronder te drukken!
+        </p>
+
+        <button onclick="window.location.href='https://www.linkedin.com/in/laurens-hill-2a1168291/'">Ga naar LinkedIn</button>
+
+        <h1>Projecten waar ik trots op ben</h1>
+
+        <div>
+            <article>
+                <a href="https://github.com/Rac-Software-Development/wp4-2026-pwa-1c4-lion">
+                <time> 24 juni 2026</time>
+                <h2>Progressive Web App</h2>
+                <p>Een Progressive Web App gemaakt met JavaScript, Python, HTML, CSS, Docker en React</p>
+                </a>
+            </article>
+
+            <article>
+                <a href="https://tenor.com/en-GB/view/cube-cat-gif-18980868">
+                <time>12 juni 2026</time>
+                <h2>Testcorrect</h2>
+                <p>Dit is een project waarin ik heb geleerd om met API's en databases te werken. Het maakt gebruik van SCSS, Less, Python, JavaScript, HTML en CSS </p>
+                </a>
+            </article>
+
+            <article>
+                <a href="https://tenor.com/en-GB/view/cat-so-tsa-gif-15448975122067981789">
+                <time>27 maart 2026</time>
+                <h2>Basiswebpagina</h2>
+                <p>Een basiswebpagina gemaakt met Python, Flask, HTML, CSS en JavaScript</p>
+                </a>
+            </article>
+        </div>
+    </body>
+
+    <style>
+		<style>
+		```css
+:global(*) {
+	box-sizing: border-box;
+}
+
+:global(body) {
+	margin: 0;
+	padding: 1rem;
+	background: #1b1026;
+	color: #f3eafa;
+	font-family: Arial, sans-serif;
+	line-height: 1.6;
+	max-width: 900px;
+	margin: 0 auto;
+}
+.language {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.language button {
+    margin: 0;
+    padding: 0.4rem 0.7rem;
+    background: #411862;
+}
+
+.language button:hover {
+    background: #582b7f;
+}
+
+.intro {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+h1 {
+	color: #d8a7ff;
+	font-size: 2rem;
+	margin-bottom: 0.5rem;
+}
+
+h2 {
+	color: #c98cff;
+	margin-top: 2rem;
+}
+
+p {
+	color: #d8cce2;
+}
+
+button {
+	display: block;
+	margin: 1rem auto 0;
+	padding: 0.8rem 1.2rem;
+	border: none;
+	border-radius: 8px;
+	background: #8b45c7;
+	color: white;
+	font-size: 1rem;
+	cursor: pointer;
+}
+
+button:hover {
+	background: #a45bdf;
+}
+
+article {
+	margin: 1rem 0;
+}
+
+article a {
+	display: block;
+	padding: 1.2rem;
+	background: #29163a;
+	border: 1px solid #4c2864;
+	border-radius: 12px;
+	color: inherit;
+	text-decoration: none;
+	transition: transform 0.2s ease, background 0.2s ease;
+}
+
+article a:hover {
+	background: #351b49;
+	transform: translateY(-3px);
+}
+
+article a:active {
+	transform: scale(0.98);
+}
+
+article h2 {
+	margin: 0.4rem 0;
+	color: #d8a7ff;
+}
+
+article p {
+	margin-bottom: 0;
+}
+
+time {
+	font-size: 0.85rem;
+	color: #aa91ba;
+}
+
+@media (min-width: 700px) {
+	:global(body) {
+		padding: 3rem;
+	}
+
+	h1 {
+		font-size: 3rem;
+	}
+
+	article a {
+		padding: 1.5rem;
+	}
+}
+```
+    </style>
+
+</html>
