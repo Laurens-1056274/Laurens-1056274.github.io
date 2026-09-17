@@ -12,6 +12,10 @@
 		<title>About Me</title>
 	</head>
 	<body>
+		<div class="language">
+		<button id="dutch">Dutch</button>
+		<button id="english">English</button>
+		</div>
 		<h1>Laurens Hill</h1>
 		<p>I am a junior software developer proficient in Python, with experience in HTML and CSS.
 		I have experience in the frameworks Vue and React.
@@ -68,6 +72,21 @@
 	line-height: 1.6;
 	max-width: 900px;
 	margin: 0 auto;
+}
+.language {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.language button {
+    margin: 0;
+    padding: 0.4rem 0.7rem;
+    background: #411862;
+}
+
+.language button:hover {
+    background: #582b7f;
 }
 
 .intro {
@@ -164,4 +183,11 @@ time {
 ```
 
 	</style>
+
+	<script>
+    import { dutch, english } from "../language.js";
+
+    document.querySelector("#dutch")?.addEventListener("click", dutch);
+    document.querySelector("#english")?.addEventListener("click", english);
+	</script>
 </html>
